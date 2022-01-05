@@ -20,7 +20,30 @@
     <div class="container container-table pt-5" style="margin-top: 100px;">
       <div class="row vertical-center-row pt-5">
         <div class="d-flex justify-content-center pt-5 text-center">
-          <h1 class="pt-5" style="font-size: 48px;">Welcome to Siurasowo.tk!</h1>
+          <style>
+            .fade-z {
+              text-decoration: underline;
+            }   
+            .fade_anim-z {
+                background: linear-gradient(45deg, #9cba0b, #a58710, #aa4700);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                animation: animation 6s ease-in-out infinite;
+                background-size: 400% 100%;
+            }
+
+            @keyframes animation {
+                0%,100% {
+                    background-position: 0 0;
+                }
+
+                50% {
+                    background-position: 100% 0;
+                }
+            }
+          </style>
+          <h1 class="pt-5" style="font-size: 48px; font-weight: bolder;">Welcome to Siurasowo<span class="fade-z fade_anim-z">.tk</span>!</h1>
         </div>
         <div class="d-flex justify-content-center text-center" style="text-align: center;">
           <style>   
